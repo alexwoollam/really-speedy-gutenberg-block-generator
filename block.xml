@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<block>
+    <attributes
+        title='Demo block'
+        description='This is a demo block...'
+        category='Category name here'
+        icon='heart'
+        preview_mode='true'
+        set_editor_style=''
+    />
+    <fields>
+        <text name='heading' title='Block Heading'/>
+        <image name='image' title='Block Image'/>
+        <rich_text name='content' title='Block Content'/>
+    </fields>
+</block>

@@ -1,0 +1,20 @@
+{
+    "name": "alex/gutenberg-twig-starter",
+    "description": "Gutenber starter, with twig.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Alexander Woollam",
+            "email": "alex.woollam@proagrica.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Block\\": "block/"
+        }
+    },
+    "require": {
+        "htmlburger/carbon-fields": "^3.1",
+        "timber/timber": "^1.18"
+    }
+}
