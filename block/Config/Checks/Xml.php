@@ -4,7 +4,7 @@ namespace Block\Config\Checks;
 
 class Xml {
 
-    public $XmlTrue;
+    public $XmlTrue = false;
 
     public $config;
 
@@ -17,8 +17,6 @@ class Xml {
     public function check_is_xml_exists(){
         if ( file_exists( $this->config ) ){
             $this->XmlTrue = true;
-        } else {
-            $this->XmlTrue = false;
         }
     }
 }
